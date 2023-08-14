@@ -39,6 +39,7 @@ Creates an Azure resource group using recommended abbreviation for Azure Resourc
 |------|-------------|------|---------|:--------:|
 | <a name="input_location"></a> [location](#input_location) | (Required) The Azure Region where the Resource Group should exist. Changing this forces a new Resource Group to be created. | `string` | n/a | yes |
 | <a name="input_name"></a> [name](#input_name) | (Required) The Name which should be used for this Resource Group. Changing this forces a new Resource Group to be created. | `string` | n/a | yes |
+| <a name="input_appendEnvironmentShortname"></a> [appendEnvironmentShortname](#input_appendEnvironmentShortname) | (Optional) If set, this string will  be appended to Resource Group Name. | `bool` | `null` | no |
 | <a name="input_environmentShortname"></a> [environmentShortname](#input_environmentShortname) | (Optional) If set, this string will  be appended to Resource Group Name. | `string` | `null` | no |
 | <a name="input_managed_by"></a> [managed_by](#input_managed_by) | (Required) The Azure Region where the Resource Group should exist. Changing this forces a new Resource Group to be created. | `string` | `null` | no |
 | <a name="input_tags"></a> [tags](#input_tags) | (Optional) A mapping of tags which should be assigned to the Resource Group. | `map(string)` | `null` | no |
