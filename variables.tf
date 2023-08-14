@@ -29,9 +29,3 @@ variable "environmentShortname" {
   description = "(Optional) If set, this string will  be appended to Resource Group Name."
   default     = null
 }
-
-variable "appendEnvironmentShortname" {
-  type        = bool
-  description = "(Optional) If set, this string will  be appended to Resource Group Name."
-  default     = null
-}

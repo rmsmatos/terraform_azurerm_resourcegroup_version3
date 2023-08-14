@@ -5,7 +5,6 @@ module "region" {
 }
 
 resource "azurerm_resource_group" "resourcegroup" {
-  #name       = lower("rg-${var.name}")
   name       = lower(var.environmentShortname != null ? lower("rg-${var.name}-${var.environmentShortname}") : lower("rg-${var.name}"))
   location   = module.region.location_cli
   managed_by = var.managed_by
