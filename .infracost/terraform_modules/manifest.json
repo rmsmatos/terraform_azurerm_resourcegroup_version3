@@ -1,0 +1,1 @@
+{"Path":"d:\\_Code\\public\\terraform_azurerm_resourcegroup_version3","Version":"2.0","Modules":[{"Key":"region","Source":"github.com/rmsmatos/terraform_azurerm_regions_version1","Dir":".infracost\\terraform_modules\\34d20f8714ea8557fea511ee5632c37b"}]}
