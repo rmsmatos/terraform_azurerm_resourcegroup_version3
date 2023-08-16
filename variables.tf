@@ -20,7 +20,7 @@ variable "tags" {
 
 variable "managed_by" {
   type        = string
-  description = "(Required) The Azure Region where the Resource Group should exist. Changing this forces a new Resource Group to be created."
+  description = "(Optional) The ID of the resource or application that manages this Resource Group."
   default     = null
 }
 
